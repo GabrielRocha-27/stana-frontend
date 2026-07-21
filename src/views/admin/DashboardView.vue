@@ -342,4 +342,30 @@ export default {
   color: #4b5563;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .cards-resumo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-valor {
+    font-size: 20px;
+  }
+
+  .tabela-wrapper {
+    overflow-x: auto;
+  }
+
+  .tabela {
+    min-width: 500px;
+  }
+
+  .filtros {
+    flex-direction: column;
+  }
+
+  .input-filtro {
+    width: 100%;
+  }
+}
 </style>

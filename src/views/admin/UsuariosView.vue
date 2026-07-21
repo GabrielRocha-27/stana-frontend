@@ -432,4 +432,31 @@ export default {
   color: #4b5563;
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .pagina-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .btn-novo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .tabela-wrapper {
+    overflow-x: auto;
+  }
+  .tabela {
+    min-width: 500px;
+  }
+
+  .modal {
+    margin: 16px;
+    padding: 24px 16px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+}
 </style>
