@@ -7,7 +7,7 @@
     <aside :class="['sidebar', { aberto: menuAberto }]">
       <div class="sidebar-logo">
         <span>🛒</span>
-        <strong>Stana</strong>
+        <strong>Gestor Local</strong>
         <button class="btn-fechar-menu" @click="menuAberto = false">✕</button>
       </div>
 
@@ -59,7 +59,7 @@
     <main class="admin-content">
       <!-- Header mobile -->
       <header class="header-mobile">
-        <span class="header-titulo">🛒 Stana Admin</span>
+        <span class="header-titulo">🛒 Gestor Local</span>
         <button class="btn-sair-mobile" @click="sair">Sair</button>
       </header>
 

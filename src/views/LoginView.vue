@@ -3,8 +3,8 @@
     <div class="login-card">
       <div class="login-logo">
         <span class="logo-icon">🛒</span>
-        <h1>Santa Ana</h1>
-        <p>Gerenciador de Mercadoria</p>
+        <h1>Gestor Local</h1>
+        <p>Gestão de vendas simplificada</p>
       </div>
 
       <div class="login-form">
